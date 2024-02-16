@@ -1,6 +1,6 @@
 *{
 	
-	color: royalblue;
+	color: white;
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
@@ -11,7 +11,13 @@
 	width:100% ;
 	position: relative;
 	min-height: 100vh;
-	background: linear-gradient(45deg,#08001f,#30197d);
+/*	background: linear-gradient(45deg,#08001f,#30197d);*/
+background-image: url("https://brobible.com/wp-content/uploads/2023/10/Time-Travel-concept-Abstract-Background-with-Clocks.png?resize=800,450");
+background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+
 
 }
 .container{
@@ -33,18 +39,11 @@
 	backdrop-filter: blur(40px);
 	margin-top: 50px;
 	background: rgba(235, 0, 255, 0.11);
+	margin-bottom: 500px;
+}
+h5{
+	color: white;
 }
 
 
-.container::before{
-	content: '';
-	width: 180px;
-	height: 180px;
-	background: #f41b75;
-	border-radius: 5px;
-	position: absolute;
-	left: -50px;
-	top:-50px;
-	z-index: -1;
-}
-
+	
